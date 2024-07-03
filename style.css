@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton+SC&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root{
+  --main-color:#66ff00c0;
+  --second-color:#042aff9f;
+  --white-color:#e4e4e4;
+  --font-size:18px;
+  --max-width:1400px;
+  --nav-heigth:70px;
+}
+
+::selection{
+  background-color: coral;
+  color: var(--second-color);
+}
+
+body{
+  background-color: var(--second-color);
+  color: var(--white-color);
+  font-family: "Anton SC", sans-serif;
+}
+
+header{
+  display: flex;
+  background-color: var(--main-color);
+  color: var(--second-color);
+}
+
+header div{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.container{
+  width: 100%;
+  max-width: var(--max-width);
+  margin: 0 auto;
+  /*
+  background-color: cadetblue;
+  */
+}
+
+nav{
+  height: var(--nav-heigth);
+}
+
+.nav-container{
+  display: flex;
+  align-items: center;
+}
+
+.enlaces{
+  text-decoration: none;
+  color: inherit;
+  font-weight: 10px;
+  margin-right: 20px;
+}
+
+/*Con inherit se ereda el color ya predefinido */
+
+#inicio{
+  background-color: rgb(255, 255, 255);
+  border-radius: 100px;
+  width: 1000px;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+
+
+.enlaces:hover{
+  background-color: var(--second-color);
+  color: var(--main-color);
+  padding: 15px;
+  border-radius: 40px;
+  transition:0.5s;
+}
+
+.principal{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+
+}
+
+.logo{
+  width: 150px;
+}
+
+.container-textos{
+  text-decoration: none;
+  font-weight: 15px;
+  text-align: center;
+  color: var(--main-color);
+  flex-basis: 45%;
+}
+
+.vh-100{
+height: calc(80vh - var(--nav-heigth));
+}
+
+.boton{
+  display: inline-block;
+  text-decoration: none;
+  border-radius: 25px;
+  background-color: var(--main-color);
+  color: var(--second-color);
+  font-weight: 700;
+  padding: 16px 30px;
+}
+
+.titulo{
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+.parrafo{
+  margin: 20px 0;
+  font-weight: 350;
+  font-size: 1.2rem;
+}
+/*jfbecerra@sena.edu.co */
