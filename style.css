@@ -48,6 +48,8 @@ header div{
   width: 100%;
   max-width: var(--max-width);
   margin: 0 auto;
+
+
   /*
   background-color: cadetblue;
   */
@@ -75,6 +77,8 @@ nav{
 
 
 /*Con inherit se ereda el color ya predefinido*/
+
+
 #inicio{
   background-color: rgb(233, 252, 248);
   border-radius: 100px;
@@ -129,7 +133,7 @@ height: calc(80vh - var(--nav-heigth));
   background-color: var(--main-color);
   color: var(--second-color);
   font-weight: 700;
-  padding: 16px 30px;
+  padding: 16px 20px;
 }
 
 .boton:hover{
