@@ -69,16 +69,20 @@ nav{
   margin-right: 20px;
 }
 
-/*Con inherit se er
-eda el color ya predefinido
 
+
+
+
+
+/*Con inherit se ereda el color ya predefinido*/
 #inicio{
-  background-color: rgb(228, 0, 0);
+  background-color: rgb(233, 252, 248);
   border-radius: 100px;
   width: 1000px;
   margin: 0 auto;
   margin-top: 50px;
-}*/
+  margin-bottom: 250px;
+}
 
 
 
@@ -128,6 +132,14 @@ height: calc(80vh - var(--nav-heigth));
   padding: 16px 30px;
 }
 
+.boton:hover{
+  background-color: var(--second-color);
+  color: var(--main-color);
+  padding: 25px;
+  border-radius: 40px;
+  transition:0.5s;
+}
+
 .boton__negro{
   background-color: black;
   color: var(--white-color);
@@ -147,7 +159,12 @@ height: calc(80vh - var(--nav-heigth));
 /*jfbecerra@sena.edu.co */
 
 
+
+
+
+
 /**  Nosotros  **/
+
 
 
 .nosotros{
@@ -156,7 +173,14 @@ height: calc(80vh - var(--nav-heigth));
   align-items: center;
   text-decoration: none;
   font-weight: 15px;
+  margin-bottom: 250px;
 }
+
+
+
+
+
+
 
 /**  servicios  **/
 
@@ -198,4 +222,15 @@ height: calc(80vh - var(--nav-heigth));
 .card__caracteristicas{
   color: var(--second-color);
   margin-bottom: 25px;
+}
+
+
+
+
+
+/** galeria  **/
+
+.galeria{
+  margin-top: 350px;
+
 }
