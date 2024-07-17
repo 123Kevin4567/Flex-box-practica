@@ -257,6 +257,7 @@ height: calc(80vh - var(--nav-heigth));
   display: flex;
   flex-direction: column;
   gap: 8px;
+  padding: ;
   
 }
 
