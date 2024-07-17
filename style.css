@@ -235,6 +235,44 @@ height: calc(80vh - var(--nav-heigth));
 /** galeria  **/
 
 .galeria{
-  margin-top: 350px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin-top: 250px;
+  
+}
 
+.img{
+  width: 30%;
+  height: 200px;
+  border-radius: 3px;
+}
+
+
+/**  Contacto  **/
+
+.contacto{
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  
+}
+
+.form-group{
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.input{
+  padding: 12px;
+  font-size: var(--font-size);
+  border-radius: 8px;
+  border: none;
+  outline: none;
+  resize: none;
+  width: 100%;
+  
 }
